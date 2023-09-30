@@ -12,7 +12,7 @@ function Projects({}: Props) {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
     >
-      <h3 className=" absolute top-10 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className=" absolute top-10 uppercase tracking-[10px] text-gray-500 text-2xl">
         Projects
       </h3>
 
@@ -32,11 +32,11 @@ function Projects({}: Props) {
               viewport={{ once: true }}
               src="https://i.pinimg.com/564x/13/fe/9b/13fe9b9214e81eeedb0eef2efe575a71.jpg"
               alt="amazon"
-              width={160}
-              height={160}
+              width={100}
+              height={100}
             />
-            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-3xl font-semibold text-center">
+            <div className="space-y-5 px-0 md:px-10 max-w-5xl">
+              <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4 font-semibold text-center">
                 {" "}
                 <span className="underline decoration-[#E7AB0A]/50">
                   {" "}
@@ -44,7 +44,7 @@ function Projects({}: Props) {
                 </span>{" "}
                 UPS clone
               </h4>
-              <p className="text-lg text-center md:text-left">
+              <p className="text-lg text-center md:text-left line-clamp-3 md:line-clamp-none">
                 is a long established fact that a reader will be distracted by
                 the readable content of a page when looking at its layout. The
                 point of using Lorem Ipsum is that it has a more-or-less normal
