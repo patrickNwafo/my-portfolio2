@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ricky from "@/images/images/ricky2.jpg";
+import Image from "next/image";
 
 type Props = {};
 
@@ -15,18 +17,12 @@ export default function About({}: Props) {
         About
       </h3>
 
-      <motion.img
-        initial={{
-          x: -200,
-          opacity: 0,
-        }}
-        transition={{
-          duration: 1.2,
-        }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true }}
-        src="https://i.pinimg.com/564x/9f/0d/20/9f0d20b3bb9af7a7a0e216be43ec8d7e.jpg"
+      <Image
+        src={ricky}
+        alt="ricky's image"
         className="-mb-20 md:mb-0 flex-shrink-0 w-36 h-36 mt-16 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:w-[350px] xl:h-[450px]"
+        height={100}
+        width={100}
       />
 
       <div className="space-y-10 px-0 md:px-10">

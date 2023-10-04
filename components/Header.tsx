@@ -25,7 +25,7 @@ export default function Header({}: Props) {
         className="flex flex-row items-center"
       >
         <SocialIcon
-          url="https://www.youtube.com"
+          url="https://github.com/patrickNwafo"
           fgColor="gray"
           bgColor=" transparent"
         />

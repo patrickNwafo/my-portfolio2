@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
 import Image from "next/image";
 import Link from "next/link";
+import ricky from "@/images/images/ricky.jpg";
 
 type Props = {};
 
@@ -21,7 +22,7 @@ export default function Hero({}: Props) {
       <BackgroundCircle />
       <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://i.pinimg.com/564x/34/d7/a1/34d7a191a6fc5b584bbed0043a699ff3.jpg"
+        src={ricky}
         height={150}
         width={150}
         alt="images"

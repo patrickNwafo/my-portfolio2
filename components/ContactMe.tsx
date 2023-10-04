@@ -20,7 +20,7 @@ function ContactMe({}: Props) {
   };
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className=" absolute top-10 uppercase tracking-[10px] text-gray-500 md:text-2xl sm:text-lg lg:text-x4xl xl:text-4xl">
+      <h3 className=" absolute top-10 uppercase tracking-[5px] text-gray-500 text-2xl">
         Contact
       </h3>
       <div className="flex flex-col space-y-10">
